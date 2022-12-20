@@ -1,0 +1,47 @@
+body {
+  box-sizing: border-box;
+  background-color: #535bf2;
+  margin: 30px;
+  font-family: 'Share Tech', sans-serif;
+}
+
+h3 {
+  color: #fff;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editor-wrapper {
+
+}
+
+.editor-toolbar {
+  background-color: #F55A5A;
+  padding: 5px 20px;
+}
+
+#editor {
+  resize: vertical;
+  min-height: 200px;
+  width: 100%;
+  padding: 10px;
+}
+
+.preview-toolbar {
+  background-color: #F55A5A;
+  padding: 5px 20px;
+  margin-top: 30px;
+}
+
+#preview {
+  background-color: #fff;
+  min-height: 300px;
+  padding: 10px;
+}
